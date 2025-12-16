@@ -25,36 +25,45 @@ I will walk through both approaches:
 
  create virtual environment and download dependencies:
   (for mac)
+  ```bash
   python3 -m venv .venv
   source .venv/bin/activate
   pip install --upgrade pip
   pip install -r requirements.txt
-
+  ```
 1. non-leak
   Then to run everything do:
+  ```bash
   python train_flux_models_leakfree.py
-
+   ```
   you will see graphs and other data appear in the data folder
 
 2. leak
   First embed the tabular data do:
+  ```bash
   python embed_tabular.py
-
+  ```
   then run:
+  ```bash
   python train_flux_models.py
-
+  ```
   Finally for graphs run:
+  ```bash
   python plot_test_graphs_reportcard.py
-
+  ```
 Anything in midterm is from the midterm report so that includes using resnet and the autoencoder.
 
+```bash
 python -m venv .venv
 source .venv/bin/activate   # mac/linux
 pip install -r midterm_requirements.txt
+```
 
 Run these programs for results:
 
+```bash
 python make_midterm_sample_data.py
 python vectorize_data.py
 python reembed_tabular.py
 python train_flux_models.py
+```
