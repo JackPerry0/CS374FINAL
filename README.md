@@ -26,6 +26,7 @@ I will walk through both approaches:
  create virtual environment and download dependencies:
   (for mac)
   ```bash
+  cd FinalForm
   python3 -m venv .venv
   source .venv/bin/activate
   pip install --upgrade pip
@@ -54,6 +55,7 @@ I will walk through both approaches:
 Anything in midterm is from the midterm report so that includes using resnet and the autoencoder.
 
 ```bash
+cd midterm
 python -m venv .venv
 source .venv/bin/activate   # mac/linux
 pip install -r midterm_requirements.txt
