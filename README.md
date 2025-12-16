@@ -8,6 +8,11 @@ the file structure looks like this:
 ```
 ALL THE DATA MANIPULATION FILES WILL PROBABLY NOT WORK BECAUSE THE DATASETS WERE TO BIG TO UPLOAD.
 
+```bash
+git clone https://github.com/JackPerry0/CS374FINAL.git
+```
+
+
 Anything in finalform was done after the midterm so this is implementing with the dinoV2 encoder and grabbing more data.
 For this section the data folder contains sample data that can be used to test some of the files.
 
