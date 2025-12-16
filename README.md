@@ -33,14 +33,14 @@ I will walk through both approaches:
   pip install -r requirements.txt
   ```
 1. non-leak
-  Then to run everything do:
+   - Then to run everything do:
   ```bash
   python train_flux_models_leakfree.py
    ```
   you will see graphs and other data appear in the data folder
 
 2. leak
-  First embed the tabular data do:
+  - First embed the tabular data do:
   ```bash
   python embed_tabular.py
   ```
