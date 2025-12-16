@@ -1,11 +1,11 @@
 # CS374FINAL
 
 the file structure looks like this:
-
+```
 /project
   /finalform
   /midterm
-
+```
 ALL THE DATA MANIPULATION FILES WILL PROBABLY NOT WORK BECAUSE THE DATASETS WERE TO BIG TO UPLOAD.
 
 Anything in finalform was done after the midterm so this is implementing with the dinoV2 encoder and grabbing more data.
