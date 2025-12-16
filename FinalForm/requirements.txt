@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+joblib
+h5py
+astropy
+Pillow
+torch
+timm
